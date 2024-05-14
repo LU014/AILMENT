@@ -1,4 +1,4 @@
-# README - General Information (Keep Updating)
+# README - General Information
 
 <b>Title:</b> Integrative Data Extraction and Metadata Analysis in Cancer and Bacterial Omics Sets using Machine Learning and Large Language Models
 
