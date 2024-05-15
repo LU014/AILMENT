@@ -1,0 +1,163 @@
+patient_id,TMB,KRAS,BRAF,NRAS,TP53,APC,PIK3CA,PIK3R1,SMAD4,ERBB4,RNF43,ZNRF3,KIT,TGFBR2,Vital.status,MSI.Status,CRIS,Gender,Age.at.Diagnosis,Site.of.Primary.Colorectal.tumour,Side,Grade,TNM,Stage,iCMS,CMS,group3,group5
+47,690,mut,wt,wt,wt,mut,mut,wt,wt,mut,wt,wt,wt,mut,Alive,MSI,CRIS-A,Male,54,Transverse colon,Right,NA,T4bN0(0/12)M0,IIC,iCMS3,CMS1,iCMS3_MSI,iCMS3_MSI
+95,86,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSI,CRIS-C,Male,64,Rectosigmoid junction,Left,2,T3N1a(1/40)M1,IVB,iCMS2,CMS2,NA,NA
+106,1028,wt,wt,wt,wt,wt,wt,wt,wt,wt,mut,wt,wt,wt,Alive,MSI,CRIS-B,Female,72,Transverse colon,Right,3,T4aN2(4/29)M0,IIIC,iCMS3,CMS1,iCMS3_MSI,iCMS3_MSI
+153,80,mut,wt,wt,mut,mut,mut,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-E,Male,66,Sigmoid colon,Left,2,T3N1(1/18)M0,IIIB,iCMS2,CMS4,iCMS2_MSS,iCMS2_fibrotic
+269,10,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-D,Female,54,Rectum,Left,2,T1N1c(0/11)M0,IIIB,iCMS3,CMS4,iCMS3_MSS,iCMS3_fibrotic
+326,1512,mut,wt,wt,wt,wt,wt,wt,wt,mut,mut,mut,wt,mut,Deceased,MSI,CRIS-B,Male,55,Rectosigmoid junction,Left,2,Unknown,II,iCMS3,CMS1,iCMS3_MSI,iCMS3_MSI
+363,1441,mut,wt,wt,mut,mut,mut,wt,mut,wt,mut,wt,wt,mut,Alive,MSI,CRIS-B,Male,44,Ascending colon,Right,2,T3N1(1/26)M0,IIIB,iCMS3,NA,iCMS3_MSI,NA
+420,1976,mut,wt,wt,mut,mut,wt,wt,wt,wt,mut,wt,wt,wt,Alive,MSI,CRIS-B,Male,58,Sigmoid colon,Left,2,T3N1(1/23)M0,IIIB,iCMS3,CMS1,iCMS3_MSI,iCMS3_MSI
+470,739,wt,wt,wt,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,Alive,MSI,CRIS-A,Female,53,Ascending colon,Right,2,T3N1(1/11)M0,IIIB,iCMS3,CMS1,iCMS3_MSI,iCMS3_MSI
+490,4066,mut,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,mut,Alive,MSI,CRIS-A,Female,26,Transverse colon,Right,2,T3N1(1/22)M0,IIIB,iCMS3,CMS1,iCMS3_MSI,iCMS3_MSI
+506,45,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-C,Female,72,Sigmoid colon,Left,Mucinous and Neuroendocrine carcinoma,T4bN0(0/19)M1,IVB,indeterminate,CMS4,NA,NA
+584,3204,mut,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,mut,mut,Deceased,MSI,CRIS-A,Male,53,Rectum,Left,Mucinous,T3N2(9/13)M0,IIIC,iCMS3,CMS1,iCMS3_MSI,iCMS3_MSI
+609,1111,wt,mut,wt,mut,wt,wt,wt,wt,wt,mut,wt,wt,mut,Deceased,MSI,CRIS-A,Female,84,Ascending colon,Right,2,T3N0(0/12)M0,IIA,iCMS3,CMS3,iCMS3_MSI,iCMS3_MSI
+612,1616,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,mut,wt,mut,Deceased,MSI,CRIS-B,Male,76,Ascending colon,Right,2,T3N1(1/21)M0,IIIB,iCMS3,CMS1,iCMS3_MSI,iCMS3_MSI
+618,113,mut,wt,wt,mut,mut,wt,wt,mut,wt,wt,wt,wt,wt,Alive,MSS,CRIS-E,Male,61,Sigmoid colon,Left,Unknown,T4aN0(0/20)M0,IIC,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+649,805,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSI,CRIS-C,Male,61,Splenic flexure,Left,2,T3N0(0/16)M0,IIA,iCMS3,CMS1,iCMS3_MSI,iCMS3_MSI
+665,2122,wt,wt,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,Alive,MSI,CRIS-B,Male,46,Ascending colon,Right,3,T3N0(0/26)M0,IIA,iCMS3,CMS1,iCMS3_MSI,iCMS3_MSI
+698,1684,wt,wt,wt,mut,mut,wt,wt,mut,wt,wt,wt,wt,wt,Alive,MSI,CRIS-C,Male,54,Sigmoid colon,Left,2,T3N0(0/22)M0,IIA,iCMS3,NA,iCMS3_MSI,NA
+742,725,mut,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,mut,Alive,MSI,CRIS-A,Female,54,Splenic flexure,Left,2,T3N0(0/14)M0,II,iCMS3,CMS1,iCMS3_MSI,iCMS3_MSI
+765,108,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-A,Female,54,Sigmoid colon,Left,Mucinous (colloid),T3N1(3/30)M0,IIIB,iCMS3,CMS3,iCMS3_MSS,iCMS3_MSS
+785,95,mut,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-C,Male,66,Cecum,Right,2,T4aN2(5/15)M1,IV,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+786,1354,wt,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,mut,Alive,MSI,CRIS-A,Male,52,Rectosigmoid junction,Left,2,T3N1(2/20)M0,IIIB,iCMS3,NA,iCMS3_MSI,NA
+814,1307,wt,wt,wt,wt,wt,wt,wt,wt,mut,wt,wt,wt,mut,Deceased,MSI,CRIS-A,Male,81,Cecum,Right,2,T3N0(0/16)M0,IIA,iCMS3,CMS1,iCMS3_MSI,iCMS3_MSI
+834,83,mut,wt,wt,mut,mut,wt,wt,mut,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-E,Male,71,Rectosigmoid junction,Left,2,T3N0(0/27)M0,IIA,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+858,1824,mut,wt,wt,wt,wt,mut,wt,wt,mut,mut,mut,wt,mut,Alive,MSI,CRIS-A,Male,55,Ascending colon,Right,2,T3N0(0/26)M0,IIA,iCMS3,CMS3,iCMS3_MSI,iCMS3_MSI
+865,118,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-C,Male,65,Ascending colon,Right,2,T3N1a(0/19)M1a,IV,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+883,82,mut,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-B,Male,53,Rectum,Left,2,T3N0(0/23)M0,IIA,iCMS3,CMS4,iCMS3_MSS,iCMS3_fibrotic
+890,154,wt,wt,wt,mut,mut,wt,mut,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-D,Male,74,Splenic flexure,Left,2,T3N0(0/10)M1,IV,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+891,83,mut,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-B,Male,73,Splenic flexure,Left,2,T3N1(1/19)M0,IIA,iCMS3,CMS4,iCMS3_MSS,iCMS3_fibrotic
+904,109,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,wt,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,iCMS2,CMS2,NA,NA
+919,75,mut,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-D,Male,72,Rectum,Left,2 to 3,T3N2(8/27)M1,IV,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+927,36,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-D,Male,65,Colon,NA,Unknown,Unknown,I,iCMS3,CMS4,iCMS3_MSS,iCMS3_fibrotic
+928,126,mut,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-E,Male,68,Ascending colon,Right,2,T4aN1(1/29)M0,IIIB,iCMS2,NA,iCMS2_MSS,NA
+931,46,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-E,Male,67,Sigmoid colon,Left,1,T3N0(0/14)m0,II,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+934,119,mut,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-D,Male,87,Rectosigmoid junction,Left,2,T4bN0(0/15)M0,IIC,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+935,174,mut,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-A,Male,65,Descending colon,Left,2,T3N2(4/18)M1,IV,iCMS3,NA,iCMS3_MSS,NA
+936,115,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-A,Female,74,Sigmoid colon,Left,1,T1N1(2/12)M0,IIIA,iCMS3,CMS3,iCMS3_MSS,iCMS3_MSS
+939,57,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Female,58,Sigmoid colon,Left,2,T3N0(0/20)M1a,IV,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+948,172,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-C,Male,59,Descending colon,Left,2,T3N2a(4/17)M1,IV,iCMS2,NA,iCMS2_MSS,NA
+958,1542,wt,wt,wt,wt,wt,wt,mut,wt,wt,wt,wt,wt,mut,Alive,MSI,CRIS-B,Male,66,Transverse colon,Right,2,T3N1(1/23)M0,IIIB,iCMS3,CMS1,iCMS3_MSI,iCMS3_MSI
+963,135,wt,wt,wt,mut,wt,wt,wt,wt,mut,wt,wt,wt,wt,Alive,MSS,CRIS-C,Female,68,Sigmoid colon,Left,2,T3N2b(11/29)M1,IV,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+973,83,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-A,Male,74,Sigmoid colon,Left,2,pT3N0(0/13)M0,IIA,iCMS2,CMS3,iCMS2_MSS,iCMS2_MSS
+974,52,mut,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-D,Male,52,Descending colon,Left,2,T3N1c(0/22 + 2 tumour deposits)M1,IVB,iCMS2,CMS4,iCMS2_MSS,iCMS2_fibrotic
+976,173,mut,wt,wt,mut,wt,mut,wt,wt,mut,wt,wt,wt,wt,Alive,MSS,CRIS-E,Female,62,Descending colon,Left,2,T4bN1(1/39)M0,IIIC,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+980,211,mut,mut,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-B,Male,70,Ascending colon,Right,2,T4aN0(0/19)M0,IIB,indeterminate,NA,NA,NA
+998,114,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-A,Male,69,Transverse colon,Right,3,T3N0(0/11)M0,IIA,iCMS3,NA,iCMS3_MSS,NA
+1030,118,mut,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-E,Female,72,Sigmoid colon,Left,2,pT3N0(0/20)M0,IIA,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1037,79,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-E,Male,60,Ascending colon,Right,2,pT4aN1b(3/15)M0,IIIB,indeterminate,CMS2,NA,NA
+1053,101,mut,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-B,Female,67,Ascending colon,Right,2,pT3N0(0/29)Mx,IIA,iCMS2,NA,iCMS2_MSS,NA
+1054,2506,wt,mut,wt,wt,mut,mut,mut,wt,wt,wt,wt,wt,mut,Alive,MSI,CRIS-C,Male,40,Sigmoid colon,Left,2,pT4bN1(3/21)M0,IIIB,indeterminate,NA,NA,NA
+1066,99,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-E,Male,72,Ascending colon,Right,2,pT4aN2(12/36)M1,IV,iCMS2,NA,iCMS2_MSS,NA
+1076,2845,wt,wt,wt,wt,mut,wt,wt,mut,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-E,Male,45,Cecum,Right,2,pT3N2(6/12)M1,IV,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1079,94,mut,wt,wt,mut,wt,wt,wt,mut,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-B,Female,65,Splenic flexure,Left,2,pT4aN0(0/6)M1,IV,iCMS3,CMS4,iCMS3_MSS,iCMS3_fibrotic
+1099,2890,wt,wt,wt,mut,mut,wt,wt,wt,wt,mut,wt,wt,mut,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,iCMS2,NA,NA,NA
+1105,1599,mut,wt,wt,wt,mut,mut,mut,wt,wt,mut,wt,wt,mut,Alive,MSI,CRIS-B,Male,57,Transverse colon,Right,2,pT4aN1(1/34)M0,IIIB,indeterminate,CMS2,NA,NA
+1117,147,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-C,Female,45,Rectosigmoid junction,Left,2,pT3N0(0/12)M1,IV,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1127,124,mut,wt,wt,wt,mut,wt,wt,mut,wt,wt,wt,wt,wt,Alive,MSS,CRIS-E,Female,75,Rectum,Left,2,pT2N0(0/19)M0,I,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1128,107,mut,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-A,Male,69,Descending colon,Left,2,pT3N0(0/32)M0,IIA,indeterminate,CMS3,NA,NA
+1138,195,mut,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-C,Female,51,Sigmoid colon,Left,2,pT3N2(7/29)M1,IV,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1144,124,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Male,54,Sigmoid colon,Left,2,pT3N0(0/27)M0,IIA,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1145,88,wt,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-E,Male,65,Rectum,Left,2,pT3N1(1/33)M0,IIIB,iCMS2,NA,iCMS2_MSS,NA
+1146,59,mut,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Female,54,Rectosigmoid junction,Left,2,pT3N0(0/16)M0,IIA,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1151,2703,wt,mut,wt,mut,wt,mut,wt,wt,mut,mut,mut,mut,mut,Alive,MSI,CRIS-A,Male,76,Transverse colon,Right,2,T1N0(0/18)M0,I,iCMS3,NA,iCMS3_MSI,NA
+1152,96,mut,wt,wt,mut,mut,mut,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Female,83,Rectum,Left,2,T2N0(0/12)M0,I,iCMS2,CMS4,iCMS2_MSS,iCMS2_fibrotic
+1158,163,wt,wt,mut,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-D,Female,63,Rectosigmoid junction,Left,2,T3N2(4/21)M1,IV,iCMS2,CMS4,iCMS2_MSS,iCMS2_fibrotic
+1162,177,mut,wt,wt,wt,mut,mut,wt,mut,wt,wt,wt,wt,wt,Alive,MSS,CRIS-A,Female,71,Cecum,Right,2,T3N0(0/28)M0,IIA,iCMS3,CMS3,iCMS3_MSS,iCMS3_MSS
+1164,158,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-D,Female,86,Sigmoid colon,Left,2,T3N2(4/24)M1a,IVA,iCMS2,CMS4,iCMS2_MSS,iCMS2_fibrotic
+1165,1870,wt,mut,wt,mut,mut,wt,wt,wt,wt,mut,wt,wt,wt,Alive,MSI,CRIS-B,Male,76,Splenic flexure,Left,3,T4aN0(0/14)M0,IIB,iCMS3,CMS1,iCMS3_MSI,iCMS3_MSI
+1171,130,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Female,56,Sigmoid colon,Left,2,T3N1(1/26)M0,IIIB,iCMS2,CMS4,iCMS2_MSS,iCMS2_fibrotic
+1176,39,mut,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-A,Male,52,Rectum,Left,2,T3N0(0/23)M1,IV,iCMS3,CMS4,iCMS3_MSS,iCMS3_fibrotic
+1177,1587,mut,mut,wt,wt,wt,wt,wt,wt,wt,mut,mut,wt,mut,Alive,MSI,CRIS-A,Male,72,Descending colon,Left,2,T3N1(3/9)MX,IV,iCMS3,CMS3,iCMS3_MSI,iCMS3_MSI
+1180,97,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Male,57,Sigmoid colon,Left,2,T3N1(1/16)M0,IIIB,iCMS2,CMS4,iCMS2_MSS,iCMS2_fibrotic
+1184,46,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-E,Male,50,Rectum,Left,2,T3N0(0/14)M1,IV,iCMS2,NA,iCMS2_MSS,NA
+1190,58,mut,wt,wt,wt,mut,wt,wt,mut,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-A,Female,67,Rectum,Left,2,T3N2b(+14/19)M0,IIIC,iCMS3,NA,iCMS3_MSS,NA
+1194,95,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Male,57,Sigmoid colon,Left,2,T3N1(1/18)M0,IIIB,iCMS2,NA,iCMS2_MSS,NA
+1196,69,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-B,Male,74,Rectum,Left,2,T4aN2(6/21)M1,IV,iCMS3,CMS3,iCMS3_MSS,iCMS3_MSS
+1202,97,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-D,Female,75,Rectum,Left,2,T4aN2(9/18)M1,IV,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1226,101,wt,wt,wt,mut,mut,wt,mut,mut,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Male,56,Rectum,Left,2,T3N2(6/33)M0,IIIB,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1227,74,wt,wt,wt,mut,mut,mut,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Female,58,Splenic flexure,Left,2,T3N2c(7/26)M0,IIIC,iCMS2,NA,iCMS2_MSS,NA
+1236,1074,wt,wt,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,Alive,MSI,CRIS-A,Male,65,Hepatic flexure,Right,2,T3N0(0/20)M0,IIA,iCMS3,CMS3,iCMS3_MSI,iCMS3_MSI
+1237,149,wt,mut,wt,mut,mut,wt,wt,wt,mut,wt,wt,wt,wt,Alive,MSS,CRIS-E,Male,65,Cecum,Right,2,T3N0(0/25)M0,IIA,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1253,1721,mut,wt,wt,wt,mut,mut,wt,wt,mut,wt,mut,mut,mut,Alive,MSI,CRIS-A,Male,39,Sigmoid colon,Left,2,T3N0(0/18)M0,IIB,iCMS3,CMS1,iCMS3_MSI,iCMS3_MSI
+1254,48,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-D,Female,61,Rectum,Left,2,T3N0(0/14)M1,IV,indeterminate,CMS4,NA,NA
+1255,102,wt,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Male,71,Sigmoid colon,Left,2,T4aN2(19/40)M1,IV,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1262,132,mut,wt,wt,mut,wt,mut,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Female,67,Descending colon,Left,2,T3N1(3/26)M0,IIIB,iCMS2,CMS4,iCMS2_MSS,iCMS2_fibrotic
+1272,113,mut,wt,wt,mut,wt,wt,wt,mut,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-B,Female,73,Rectum,Left,3,T4bN2c(5/7)M0,IIIC,iCMS3,CMS1,iCMS3_MSS,iCMS3_MSS
+1276,207,wt,wt,wt,mut,mut,mut,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Female,45,Cecum,Right,2,T3N2(7/11)M0,IIIB,iCMS2,NA,iCMS2_MSS,NA
+1277,192,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Male,53,Rectum,Left,2,T3N1(2/21)M1,IV,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1280,140,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Female,76,Rectum,Left,2,T1N0(0/12)M0,I,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1298,1877,mut,wt,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,mut,Alive,MSI,CRIS-A,Male,48,Ascending colon,Right,Adenosquamous carcinoma,T3N2(11/19)M0,IIIC,iCMS3,NA,iCMS3_MSI,NA
+1304,98,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-E,Male,76,Sigmoid colon,Left,2,T3N0(0/15)M0,IIA,iCMS2,CMS4,iCMS2_MSS,iCMS2_fibrotic
+1311,86,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-D,Male,55,Splenic flexure,Left,2,T3N0(0/22)M0,IIA,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1312,122,wt,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Male,80,Descending colon,Left,2,T2N0(0/18)M0,I,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1313,175,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-B,Female,77,Cecum,Right,2,T4aN2b(8/8)M1,IV,iCMS3,CMS4,iCMS3_MSS,iCMS3_fibrotic
+1315,120,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-E,Male,71,Cecum,Right,2,T4aN1(2/17)M0,IIIB,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1317,127,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Male,72,Sigmoid colon,Left,2,T2N1(1/9)M0,IIIA,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1323,78,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-D,Male,67,Sigmoid colon,Left,2,T4bN2a(4/32)M0,IIIC,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1324,134,wt,wt,wt,mut,mut,mut,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Male,73,Sigmoid colon,Left,2,T3N1c(0/17)M0,IIIB,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1332,111,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-E,Female,40,Descending colon,Left,2,T3N1(3/20)M1,IV,iCMS3,NA,iCMS3_MSS,NA
+1341,92,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-D,Female,58,Sigmoid colon,Left,2,T4bN1(3/16)M1,IV,indeterminate,CMS4,NA,NA
+1354,2897,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,iCMS2,CMS2,NA,NA
+1378,80,mut,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-D,Female,66,Transverse colon,Right,1,pT3N0(0/62)M0,IIA,indeterminate,CMS2,NA,NA
+1386,113,mut,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-A,Male,67,Cecum,Right,3,T4aN2c(7/20)M1,IV,iCMS3,CMS3,iCMS3_MSS,iCMS3_MSS
+1388,71,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Male,72,Sigmoid colon,Left,2,T3N0(0/13)M0,IIA,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1393,73,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-D,Male,65,Rectum,Left,2,T3N1(0/31)M0,IIIB,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1397,108,wt,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-D,Male,77,Sigmoid colon,Left,1,T2N0(0/10)M0,I,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1399,73,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-C,Female,81,Sigmoid colon,Left,2,T3N1(1/14)M1,IV,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1409,63,mut,wt,wt,mut,mut,wt,wt,wt,mut,wt,wt,wt,wt,Deceased,MSS,CRIS-B,Female,44,Ascending colon,Right,2,T3N2bM1,IV,iCMS3,CMS4,iCMS3_MSS,iCMS3_fibrotic
+1414,129,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-E,Female,53,Rectum,Left,2,T4bN1c(1/1)M0,IV,iCMS3,CMS3,iCMS3_MSS,iCMS3_MSS
+1419,164,mut,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-A,Female,63,Cecum,Right,Mucinous (colloid),T4bN0(0/12)M1,IV,iCMS3,NA,iCMS3_MSS,NA
+1424,1225,mut,wt,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,Alive,MSI,CRIS-A,Male,84,Transverse colon,Right,3,T3N0(0/25)M0,IIA,iCMS3,CMS3,iCMS3_MSI,iCMS3_MSI
+1425,84,wt,wt,mut,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-E,Female,70,Rectum,Left,2,T3N0(0/20)M1,IVB,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1426,167,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-E,Female,67,Ascending colon,Right,2,T4aN2(4/24)M1,IV,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1448,136,mut,wt,wt,wt,mut,mut,wt,wt,wt,wt,mut,wt,wt,Deceased,MSS,CRIS-D,Female,68,Rectum,Left,2,T3N2(4/17)M0,IIIB,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1456,82,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-A,Female,49,Descending colon,Left,2,T4aN0(0/9)M0,IIC,iCMS3,CMS3,iCMS3_MSS,iCMS3_MSS
+1457,104,mut,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-A,Male,68,Transverse colon,Right,2,T4aN0(0/33)M1,IV,iCMS3,CMS3,iCMS3_MSS,iCMS3_MSS
+1463,72,mut,wt,wt,wt,wt,mut,wt,mut,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-A,Male,51,Transverse colon,Right,2,T4bN1(1/35)M1,IV,iCMS3,CMS3,iCMS3_MSS,iCMS3_MSS
+1464,94,mut,wt,wt,mut,mut,wt,wt,mut,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Male,51,Cecum,Right,2,T3N1(2/23)M0,IIIB,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1465,130,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-E,Female,70,Sigmoid colon,Left,2,T3N2b(9/16)M1,IV,iCMS2,CMS3,iCMS2_MSS,iCMS2_MSS
+1470,111,mut,mut,wt,mut,mut,mut,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-A,Female,61,Cecum,Right,2,T4bN2b(9/30)M1,IV,iCMS3,CMS4,iCMS3_MSS,iCMS3_fibrotic
+1477,112,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Male,62,Sigmoid colon,Left,2,T3N0(0/33)M0,IIA,iCMS2,NA,iCMS2_MSS,NA
+1489,116,wt,mut,wt,mut,wt,mut,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-A,Male,70,Sigmoid colon,Left,2,T3N1(1/15)M1,IV,iCMS3,CMS3,iCMS3_MSS,iCMS3_MSS
+1502,100,wt,wt,wt,mut,mut,wt,wt,wt,mut,wt,wt,wt,wt,Alive,MSS,CRIS-C,Male,77,Sigmoid colon,Left,3,T3N1(3/18)M0,IIA,iCMS2,NA,iCMS2_MSS,NA
+1504,114,wt,wt,mut,mut,mut,mut,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-E,Female,70,Rectum,Left,2,T2N1(3/21)M1,IV,iCMS2,CMS4,iCMS2_MSS,iCMS2_fibrotic
+1528,1853,wt,mut,wt,mut,mut,wt,wt,wt,mut,mut,mut,wt,mut,Alive,MSI,CRIS-A,Male,80,Transverse colon,Right,2,T3N0(0/22)M0,IIA,iCMS3,CMS1,iCMS3_MSI,iCMS3_MSI
+1533,111,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-D,Male,69,Descending colon,Left,1,T4bN2(4/13)M0,IIIC,iCMS3,CMS4,iCMS3_MSS,iCMS3_fibrotic
+1538,122,mut,wt,wt,mut,mut,wt,wt,wt,mut,wt,wt,wt,wt,Deceased,MSS,CRIS-D,Female,73,Rectum,Left,2,T3N1(3/25)M0,IIIB,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1539,111,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Male,70,Descending colon,Left,2,T4aN0(0/34)M0,IIB,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1543,138,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-E,Male,74,Sigmoid colon,Left,2,T3N0(0/22)M0,IIA,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1549,118,mut,wt,wt,wt,mut,wt,wt,mut,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-C,Female,40,Rectum,Left,2,T4aN2(6/16)M1,IV,iCMS3,NA,iCMS3_MSS,NA
+1550,78,wt,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-C,Male,63,Sigmoid colon,Left,2,T3N1(3/15)M1,IV,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1554,64,wt,wt,wt,wt,mut,wt,wt,mut,wt,mut,wt,wt,wt,Deceased,MSS,CRIS-C,Male,78,Sigmoid colon,Left,2,T4aN2(6/12)M0,IIIC,indeterminate,CMS2,NA,NA
+1556,1938,wt,mut,wt,mut,mut,mut,wt,wt,mut,mut,mut,mut,mut,Alive,MSI,CRIS-B,Female,60,Ascending colon,Right,2,T2N0(0/26)M0,I,iCMS3,CMS1,iCMS3_MSI,iCMS3_MSI
+1563,102,mut,wt,wt,wt,mut,wt,wt,mut,wt,wt,wt,wt,wt,Alive,MSS,CRIS-A,Male,83,Cecum,Right,1,T1N0(0/13)M0,I,iCMS3,CMS3,iCMS3_MSS,iCMS3_MSS
+1586,129,mut,wt,wt,mut,wt,mut,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-A,Male,63,Sigmoid colon,Left,2,T2N0(0/9)M0,I,iCMS3,CMS3,iCMS3_MSS,iCMS3_MSS
+1592,156,mut,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-A,Female,61,Transverse colon,Right,2,T3N1(1/30)M0,IIIB,iCMS3,NA,iCMS3_MSS,NA
+1602,104,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,mut,wt,wt,Deceased,MSS,CRIS-B,Male,63,Rectum,Left,2,T3N1(1/7)M1,IV,iCMS2,NA,iCMS2_MSS,NA
+1603,79,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Male,66,Rectosigmoid junction,Left,2,T3N0(0/19)M0,IIA,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1604,110,mut,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-A,Male,61,Rectosigmoid junction,Left,2,T3N1(2/14)M1,IV,iCMS3,NA,iCMS3_MSS,NA
+1607,145,mut,mut,wt,wt,mut,wt,wt,mut,wt,wt,wt,wt,wt,Alive,MSS,CRIS-A,Female,67,Ascending colon,Right,2,T3N1b(2/32)M0,IIIB,iCMS3,CMS3,iCMS3_MSS,iCMS3_MSS
+1610,20,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-A,Female,61,Descending colon,Left,1,T2N1b(3/22)M0,IIIB,iCMS3,NA,iCMS3_MSS,NA
+1614,42,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-A,Male,37,Rectum,Left,2,T3N2a(5/46)M0,IIIB,iCMS3,CMS3,iCMS3_MSS,iCMS3_MSS
+1625,82,mut,wt,wt,wt,mut,wt,wt,mut,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-C,Female,71,Sigmoid colon,Left,2 (mucinous),T3N1a(1/15)M0,IIIB,indeterminate,CMS4,NA,NA
+1627,1872,wt,wt,wt,mut,wt,mut,wt,wt,wt,mut,mut,wt,mut,Alive,MSI,CRIS-A,Female,80,Cecum,Right,2,T3N0(0/22)M0,IIA,iCMS3,CMS1,iCMS3_MSI,iCMS3_MSI
+1630,192,mut,wt,wt,wt,mut,mut,wt,wt,wt,mut,wt,wt,wt,Alive,MSS,CRIS-A,Female,88,Sigmoid colon,Left,2,T3N0(0/26)M0,IIA,iCMS3,NA,iCMS3_MSS,NA
+1631,110,mut,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-A,Male,79,Ascending colon,Right,2,T4aN1b(2/24)M1,IV,iCMS3,NA,iCMS3_MSS,NA
+1632,73,wt,wt,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-D,Male,48,Rectosigmoid junction,Left,2,T3N0(0/34)M0,IIA,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1634,1,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-A,Male,49,Rectum,Left,2,T3N0(0/20)M0,IIA,iCMS3,NA,iCMS3_MSS,NA
+1639,9475,mut,wt,wt,mut,mut,mut,mut,mut,mut,mut,wt,mut,wt,Alive,MSS,CRIS-D,Male,50,Hepatic flexure,Right,3,T4bN0(0/35)M0,IIC,iCMS3,NA,iCMS3_MSS,NA
+1643,132,wt,mut,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-D,Female,65,Rectum,Left,2,T2N0(0/20)M0,I,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1644,77,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-B,Female,59,Transverse colon,Right,2,T4N0(0/22)M0,IIB,indeterminate,CMS4,NA,NA
+1646,93,mut,wt,wt,wt,mut,wt,mut,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-A,Male,78,Sigmoid colon,Left,1,T2N0(0/24)M0,I,iCMS3,CMS3,iCMS3_MSS,iCMS3_MSS
+1647,109,mut,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-A,Male,63,Ascending colon,Right,Mucinous,T3N1(1/39)M0,IIIB,iCMS3,CMS1,iCMS3_MSS,iCMS3_MSS
+1649,129,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-E,Female,59,Sigmoid colon,Left,2,T3N1a(1/39)M0,IIIB,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1656,133,wt,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Male,64,Rectosigmoid junction,Left,2,T3N0(0/49)M0,IIA,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1657,2118,mut,wt,wt,wt,wt,mut,mut,wt,wt,wt,mut,wt,mut,Alive,MSI,CRIS-B,Female,55,Transverse colon,Right,Mucinous,T3N0(0/16)M0,IIA,iCMS3,CMS1,iCMS3_MSI,iCMS3_MSI
+1658,82,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Deceased,MSS,CRIS-C,Female,59,Rectum,Left,2,T3N2b(8/22)M1,IV,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1662,74,mut,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-A,Male,67,Rectum,Left,2,T3N1a(1/36)M0,IIIB,iCMS3,CMS3,iCMS3_MSS,iCMS3_MSS
+1664,46,mut,wt,wt,mut,wt,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-C,Female,62,Sigmoid colon,Left,2,T3N2a(6/29)M0,IIIC,iCMS2,CMS4,iCMS2_MSS,iCMS2_fibrotic
+1665,93,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-B,Female,78,Sigmoid colon,Left,2,T3N1c(0/15)M0,IIIB,iCMS2,CMS2,iCMS2_MSS,iCMS2_MSS
+1672,1198,wt,mut,wt,wt,wt,wt,wt,wt,wt,mut,wt,wt,mut,Alive,MSI,CRIS-A,Female,65,Ascending colon,Right,3,T4aN1(3/33)M0,IIIB,iCMS3,CMS4,iCMS3_MSI,iCMS3_MSI
+1677,55,mut,wt,wt,mut,mut,wt,wt,wt,wt,wt,wt,wt,wt,Alive,MSS,CRIS-D,Female,67,Sigmoid colon,Left,Unknown,Unknown,IV,iCMS2,NA,iCMS2_MSS,NA
