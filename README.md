@@ -6,7 +6,7 @@
 
 ---------------------
 
-<b>Current stage:</b> ML models had been built. Those models have same data preprocess steps and with determined "random_state" and "random_seed" to insure the reproducibility. You can easily find the data preprocess scripts in a individual folder. All ML models were directly using saved preprocessed data.
+<b>Current stage:</b> ML models had been built. Those models have same data preprocess steps and with determined "random_state" and "random_seed" to insure the reproducibility. You can easily find the data preprocess scripts in an individual folder. All ML models were directly using exported preprocessed data.
 
 <b>Next step:</b> Some exploration in LLMs (Large Language Models). Regarding this part, we're trying to collaborate with Groningen. We'll see how far we can reach...
 
