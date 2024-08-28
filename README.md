@@ -1,13 +1,13 @@
 # README - General Information
 
-<b>Title:</b> Integrative Data Extraction and Metadata Analysis in Cancer and Bacterial Omics Sets using Machine Learning and Large Language Models
+<b>Title:</b> EMC_CanML
 
-<b>Project Description:</b> In this project, we aim to develop a machine learning (ML) framework for efficient data extraction and metadata analysis in cancer and bacterial omics datasets, flexible enough to be adjusted for other relative purposes such as validating gene copy numbers in associated manuscripts. The objectives encompass the development of ML models for extracting information from diverse omics datasets and manuscripts, the integration of algorithms for joint data and metadata analysis, and the adaptation of the model to validate copy numbers. Methodologically, we will collect diverse datasets and manuscripts, preprocess the data, and employ pre-trained language models, such as GPT-3.5. Implementation will be carried out using Python with TensorFlow, PyTorch, and a user-friendly interface will be developed for seamless researcher interaction. Evaluation will involve assessing model accuracy through cross-validation and benchmarking, with a particular emphasis on validating the copy number and checking the generated data with published ones. Ethical considerations will be prioritized to ensure data privacy and prevent biases. The expected outcomes include an innovative robust MLframework for data extraction, an improved understanding of biological processes, and a specialized model for copy number validation, contributing to advancements in cancer and bacterial research. Having an ML tool as chatgpt for scientific data sets will have a large impact on any conducted research.
+<b>Project Description:</b> Mahcine learning framework incoporates integrative feature importance analysis for prediction and analysis of microbial involvement in colorectal caner.
 
 ---------------------
 
-<b>Current stage:</b> ML models had been built. Those models have same data preprocess steps and with determined "random_state" and "random_seed" to insure the reproducibility. You can easily find the data preprocess scripts in an individual folder. All ML models were directly using exported preprocessed data.
+<b>Current stage:</b> Framework had been built. Predictive and identification performance was evaluated.
 
-<b>Next step:</b> Some exploration in LLMs (Large Language Models). Regarding this part, we're trying to collaborate with Groningen. We'll see how far we can reach...
+<b>Prospects:</b> 1. Incoporate explainable AI such as SHAP analysis for diagnosis or other binary classification problems in cancer microbiome; 2. Leverage more ML models or advanced ML models to the framework; 3. More data to be fed into the framework would be appreciating for more accurate microbial involvement identification for CRC.
 
 <b>Tip:</b> Currently, we only have data from published paper or other cohort. Our own data is still generating in the lab.
