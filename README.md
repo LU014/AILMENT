@@ -1,12 +1,12 @@
-# README - General Information
+# README
 
-<b>Title:</b> EMC_CanML
+## EMC_CanML: A Novel Machine Learning Framework for Prediction and Analysis of Microbial Involvement of Colorectal Cancer
 
-<b>Project Description:</b> Mahcine learning framework incoporates integrative feature importance analysis for prediction and analysis of microbial involvement in colorectal caner.
+### Workflow for you to conduct EMC_CanML step by step:
 
----------------------
 
-<b>Current stage:</b> Framework had been built. Predictive and identification performance was evaluated.
+
+-------------------------------------
 
 <b>Prospects:</b> 1. Incoporate explainable AI such as SHAP analysis for diagnosis or other binary classification problems in cancer microbiome; 2. Leverage more ML models or advanced ML models to the framework; 3. More data to be fed into the framework would be appreciating for more accurate microbial involvement identification for CRC.
 
