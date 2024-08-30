@@ -1,6 +1,6 @@
 # README
 
-## EMC_CanML: A Novel Machine Learning Framework for Prediction and Analysis of Microbial Involvement of Colorectal Cancer
+## EMC_CanML: A Novel Machine Learning Framework for Prediction and Analysis of Microbial Involvement in Colorectal Cancer
 
 ### Workflow for you to conduct EMC_CanML step by step:
 
