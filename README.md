@@ -5,7 +5,8 @@
 ### Workflow for you to conduct EMC_CanML step by step:
 
 1. Install Requirements.
-Data analysis in R (PCA, alpha diversity, beta diversity):
+Data analysis in R (PCA, alpha diversity, beta diversity).
+
 '''bash
 install.packages("ggplot2")
 install.packages("factoextra")
