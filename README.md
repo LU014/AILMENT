@@ -7,11 +7,11 @@
 1. Install Requirements.
 Data analysis in R (PCA, alpha diversity, beta diversity).
 
-'''bash
+```bash
 install.packages("ggplot2")
 install.packages("factoextra")
 install.packages("dplyr")
-'''
+```
 
 -------------------------------------
 
