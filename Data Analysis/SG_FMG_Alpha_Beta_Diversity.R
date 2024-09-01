@@ -30,18 +30,16 @@ alpha_diversity <- cbind(alpha_diversity, metadata)
 
 color_palette <- "Set2"
 
-# Shannon Diversity Boxplot
-
 pairwise_wilcox <- pairwise.wilcox.test(alpha_diversity$Shannon, alpha_diversity$metadata,
                                         p.adjust.method = "BH")
 ggplot(alpha_diversity, aes(x = metadata, y = Shannon, fill = metadata)) +
   geom_boxplot(outlier.shape = NA) +
   geom_jitter(width = 0.2, size = 2, alpha = 0.6) +
-  geom_signif(comparisons = list(c("CRC", "Healthy")),  # Replace with actual group names
-              map_signif_level = TRUE, test = "wilcox.test") +  # Automatically add significance levels
+  geom_signif(comparisons = list(c("CRC", "Healthy")),  
+              map_signif_level = TRUE, test = "wilcox.test") +  
   scale_fill_brewer(palette = "Set2") +
   theme_classic() +
-  labs(title = "Healthy Condition", x = "", y = "") +
+  labs(title = "SG_CRC vs. FMG_Healthy", x = "", y = "") +
   theme(
     plot.title = element_text(hjust = 0.5, size = 14),
     axis.title = element_text(face = "bold", size = 13),
@@ -74,16 +72,16 @@ permanova_result <- adonis2(bray_curtis ~ metadata, permutations = 999)
 p_value <- permanova_result$`Pr(>F)`[1]
 ggplot(pcoa_bray_df, aes(x = Axis1, y = Axis2, color = metadata, shape = metadata)) +
   geom_point(size = 3, alpha = 0.8) +
-  stat_ellipse(aes(fill = metadata), geom = "polygon", alpha = 0.2, level = 0.95) + # Add ellipses
+  stat_ellipse(aes(fill = metadata), geom = "polygon", alpha = 0.2, level = 0.95) +
   scale_color_brewer(palette = color_palette) +
   scale_fill_brewer(palette = color_palette, guide = "none") +
   theme_classic() +
   labs(
-    title = "Healthy Condition",
+    title = "SG_CRC vs. FMG_Healthy",
     x = axis1_label,
     y = axis2_label,
-    color = "Group",  # Title for the color legend
-    shape = "Group"   # Title for the shape legend
+    color = "Group",  
+    shape = "Group"  
   ) +
   theme(
     plot.title = element_text(hjust = 0.5,  size = 16),
