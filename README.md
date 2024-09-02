@@ -32,6 +32,17 @@ from sklearn.model_selection import GridSearchCV, StratifiedKFold
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 ```
+2. Prepare your dataset
+
+```Python
+# Load pre-processed data
+SG_BA = pd.read_csv("kraken2_all_CRC_samples_biom.tsv", index_col=0, sep = '\t')
+# Remove the current index and reset it to default
+SG_BA = SG_BA.reset_index(drop=True)
+# Set the last column as the new index
+SG_BA = SG_BA.set_index(SG_BA.columns[-1])
+SG_BA = SG_BA[SG_BA.index.str.startswith('k__Bacteria')] # Select bacteria kingdom
+```
 
 -------------------------------------
 
