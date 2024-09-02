@@ -35,13 +35,34 @@ from sklearn.ensemble import RandomForestClassifier
 2. Prepare your dataset
 
 ```Python
-# Load pre-processed data
-SG_BA = pd.read_csv("kraken2_all_CRC_samples_biom.tsv", index_col=0, sep = '\t')
-# Remove the current index and reset it to default
-SG_BA = SG_BA.reset_index(drop=True)
-# Set the last column as the new index
-SG_BA = SG_BA.set_index(SG_BA.columns[-1])
-SG_BA = SG_BA[SG_BA.index.str.startswith('k__Bacteria')] # Select bacteria kingdom
+# Assuming your "data" is rows with samples and columns with taxa at the species level
+
+data = data[data.index.str.startswith('k__Bacteria')] # Select bacteria kingdom
+
+# Normalization
+row_sums = data.sum(axis=1)
+data = data.div(row_sums, axis=0)
+
+# Data clean (keep only the species that present in more than 50% of samples)
+non_zero_counts = (data > 0).sum(axis=0)
+half_samples = len(data) / 2
+data = data.loc[:, non_zero_counts > half_samples]
+
+# Remove the invalid species or genera (*e.g.*, the blacklist mentioned in our study)
+invalid_names =['f__; g__; s__','g__; s__', ...] # here also remove the empty (or un-identified taxa)
+for col in data.columns:
+    if any(invalid_name in col for invalid_name in invalid_names):
+        data.drop(col, axis=1, inplace=True)
+
+# Extract only the genus level taxonomy
+def extract_taxonomy(column):
+    taxonomy_levels = [t for t in column.split('; ') if t.startswith('g__')]
+    return '; '.join(taxonomy_levels) if taxonomy_levels else column
+new_columns = [extract_taxonomy(column) for column in SG_BA.columns]
+SG_BA.columns = new_columns
+
+# Summing species to genus
+SG_BA = SG_BA.groupby(SG_BA.columns, axis=1).sum()
 ```
 
 -------------------------------------
