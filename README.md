@@ -67,13 +67,13 @@ For conducting ML models for EMC_CanML, you can follow the code in "<i>Examples<
 
 <b>4. Integrative evaluation of predictive performance</b> (to do this, you need to collect the ML outcomes from ML models that you included in the EMC_CanML framework)
 
-See code <i>"Data Analysis/Accuracy_AUROC_itersPlot.ipynb"</i> for accuracy and AUROC
+See code <i>"Data Analysis/Accuracy_AUROC_itersPlot.ipynb"</i> for accuracy and AUROC.
 
-See code <i>"Data Analysis/P_R_F1_itersPlot.ipynb"</i> for precision, recall, and F1-score
+See code <i>"Data Analysis/P_R_F1_itersPlot.ipynb"</i> for precision, recall, and F1-score.
 
 <b>5. Integrative feature importance analysis for microbial involvement identification</b> (to do this, you need to collect the ML outcomes from ML models that you included in the EMC_CanML framework)
 
-See code <i>"Data Analysis/FI_itersPlot.ipynb"</i>
+See code <i>"Data Analysis/FI_itersPlot.ipynb"</i>.
 
 -------------------------------------
 
