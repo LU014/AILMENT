@@ -58,11 +58,11 @@ for col in data.columns:
 def extract_taxonomy(column):
     taxonomy_levels = [t for t in column.split('; ') if t.startswith('g__')]
     return '; '.join(taxonomy_levels) if taxonomy_levels else column
-new_columns = [extract_taxonomy(column) for column in SG_BA.columns]
-SG_BA.columns = new_columns
+new_columns = [extract_taxonomy(column) for column in data.columns]
+data.columns = new_columns
 
 # Summing species to genus
-SG_BA = SG_BA.groupby(SG_BA.columns, axis=1).sum()
+data = data.groupby(data.columns, axis=1).sum()
 ```
 
 -------------------------------------
