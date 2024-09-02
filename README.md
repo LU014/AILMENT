@@ -4,7 +4,7 @@
 
 ### Workflow for you to conduct EMC_CanML step by step:
 
-1. Install Requirements
+<b>1. Install Requirements</b>
 
 Data analysis in R (PCA, alpha diversity, beta diversity):
 ```bash
@@ -23,7 +23,7 @@ Machine learning in Python:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
 ```
-2. Prepare your dataset (normalization and clean)
+<b>2. Prepare your dataset</b> (normalization and clean)
 
 ```Python
 import pandas as pd
@@ -61,19 +61,19 @@ data = data.groupby(data.columns, axis=1).sum()
 # Together with metadata ('patient_id' can be other common parts from your data)
 data = pd.merge(data, metadata, on='patient_id', how='inner') 
 ```
-3. Machine learning models/framework
+<b>3. Machine learning models/framework</b>
 
-For conducting ML models for EMC_CanML, you can follow the code in "<b>Examples</b>", where you will see examples for RF or XGB with binary classification or multi-class classification.
+For conducting ML models for EMC_CanML, you can follow the code in "<i>Examples</i>", where you will see examples for RF or XGB with binary classification or multi-class classification.
 
-4. Integrative evaluation of predictive performance (to do this, you need to collect the ML outcomes from ML models that you included in the EMC_CanML framework)
+<b>4. Integrative evaluation of predictive performance</b> (to do this, you need to collect the ML outcomes from ML models that you included in the EMC_CanML framework)
 
-See code <b>"Data Analysis/Accuracy_AUROC_itersPlot.ipynb"</b> for accuracy and AUROC
+See code <i>"Data Analysis/Accuracy_AUROC_itersPlot.ipynb"</i> for accuracy and AUROC
 
-See code <b>"Data Analysis/P_R_F1_itersPlot.ipynb"</b> for precision, recall, and F1-score
+See code <i>"Data Analysis/P_R_F1_itersPlot.ipynb"</i> for precision, recall, and F1-score
 
-5. Integrative feature importance analysis for microbial involvement identification (to do this, you need to collect the ML outcomes from ML models that you included in the EMC_CanML framework)
+<b>5. Integrative feature importance analysis for microbial involvement identification</b> (to do this, you need to collect the ML outcomes from ML models that you included in the EMC_CanML framework)
 
-See code <b>"Data Analysis/FI_itersPlot.ipynb"</b>
+See code <i>"Data Analysis/FI_itersPlot.ipynb"</i>
 
 -------------------------------------
 
