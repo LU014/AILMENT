@@ -63,12 +63,12 @@ data = pd.merge(data, metadata, on='patient_id', how='inner')
 ```
 3. Machine learning models/framework
 
-For conducting ML models for EMC_CanML, you can follow the code in "<b>Examples<b/>", where you will see examples for RF or XGB with binary classification or multi-class classification.
+For conducting ML models for EMC_CanML, you can follow the code in "<b>Examples</b>", where you will see examples for RF or XGB with binary classification or multi-class classification.
 
 4. Integrative evaluation of predictive performance
 
-<b>Data Analysis/Accuracy_AUROC_itersPlot.ipynb<b/> for accuracy and AUROC
-<b>Data Analysis/P_R_F1_itersPlot.ipynb<b/> for precision, recall, and F1-score
+<b>Data Analysis/Accuracy_AUROC_itersPlot.ipynb</b> for accuracy and AUROC
+<b>Data Analysis/P_R_F1_itersPlot.ipynb</b> for precision, recall, and F1-score
 
 
 -------------------------------------
