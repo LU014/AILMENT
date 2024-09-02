@@ -19,7 +19,7 @@ install.packages("BiocManager")  # BiocManager is required to install Bioconduct
 BiocManager::install("biomaRt")
 install.packages("dplyr")
 ```
-Machine learning:
+Machine learning in Python:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
 ```
