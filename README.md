@@ -35,6 +35,7 @@ from sklearn.ensemble import RandomForestClassifier
 2. Prepare your dataset (normalization and clean)
 
 ```Python
+import pandas as pd
 # Assuming your "data" is rows with samples and columns with taxa at the species level
 
 data = data[data.index.str.startswith('k__Bacteria')] # Select bacteria kingdom
