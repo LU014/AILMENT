@@ -23,6 +23,8 @@ Machine learning in Python:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
 ```
+--
+
 <b>2. Prepare your microbial relative abundance dataset</b> (normalization and clean)
 
 ```Python
@@ -63,19 +65,23 @@ data = pd.merge(data, metadata, on='patient_id', how='inner')
 ```
 Tip: you could do similar processes for your gene expression data, or use differentially expressed gene data.
 
-<b>4. Machine learning models/framework</b>
+--
+
+<b>3. Machine learning models/framework</b>
 
 For conducting ML models for EMC_CanML, you can follow the code in "<i>Examples</i>", where you will see examples for RF or XGB with binary classification or multi-class classification.
 
-<b>5. Integrative evaluation of predictive performance</b> (to do this, you need to collect the ML outcomes from ML models that you included in the EMC_CanML framework)
+--
+
+<b>4. Integrative evaluation of predictive performance</b> (to do this, you need to collect the ML outcomes from ML models that you included in the EMC_CanML framework)
 
 See code <i>"Data Analysis/Accuracy_AUROC_itersPlot.ipynb"</i> for accuracy and AUROC.
 
 See code <i>"Data Analysis/P_R_F1_itersPlot.ipynb"</i> for precision, recall, and F1-score.
 
-<b>6. Integrative feature importance analysis for microbial involvement identification</b> (to do this, you need to collect the ML outcomes from ML models that you included in the EMC_CanML framework)
+--
+
+<b>5. Integrative feature importance analysis for microbial involvement identification</b> (to do this, you need to collect the ML outcomes from ML models that you included in the EMC_CanML framework)
 
 See code <i>"Data Analysis/FI_itersPlot.ipynb"</i>.
-
----
 
