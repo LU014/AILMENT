@@ -42,7 +42,7 @@ non_zero_counts = (data > 0).sum(axis=0)
 half_samples = len(data) / 2
 data = data.loc[:, non_zero_counts > half_samples]
 
-# Remove the invalid species or genera (*e.g.*, the blacklist mentioned in our study)
+# Remove the invalid species or genera (e.g., the blacklist mentioned in our study)
 invalid_names =['f__; g__; s__','g__; s__', ...] # here also remove the empty (or un-identified taxa)
 for col in data.columns:
     if any(invalid_name in col for invalid_name in invalid_names):
