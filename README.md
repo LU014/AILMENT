@@ -67,8 +67,8 @@ data.columns = new_columns
 # Summing species to genus
 data = data.groupby(data.columns, axis=1).sum()
 
-# Together with metadata
-data = pd.merge(data, metadata, on='patient_id', how='inner') # Here based on 'patient_id', which can be any common part in your data
+# Together with metadata ('patient_id' can be other common parts from your data)
+data = pd.merge(data, metadata, on='patient_id', how='inner') 
 ```
 
 
