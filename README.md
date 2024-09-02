@@ -6,10 +6,16 @@
 
 1. Install Requirements.
 Data analysis in R (PCA, alpha diversity, beta diversity):
-
 ```bash
 install.packages("ggplot2")
 install.packages("factoextra")
+install.packages("dplyr")
+install.packages("vegan")
+```
+Ensembl_id annotation:
+```bash
+install.packages("BiocManager")  # BiocManager is required to install Bioconductor packages
+BiocManager::install("biomaRt")
 install.packages("dplyr")
 ```
 
