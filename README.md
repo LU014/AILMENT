@@ -67,8 +67,9 @@ For conducting ML models for EMC_CanML, you can follow the code in "<b>Examples<
 
 4. Integrative evaluation of predictive performance
 
-<b>Data Analysis/Accuracy_AUROC_itersPlot.ipynb</b> for accuracy and AUROC
-<b>Data Analysis/P_R_F1_itersPlot.ipynb</b> for precision, recall, and F1-score
+See code <b>"Data Analysis/Accuracy_AUROC_itersPlot.ipynb"</b> for accuracy and AUROC
+
+See code <b>"Data Analysis/P_R_F1_itersPlot.ipynb"</b> for precision, recall, and F1-score
 
 
 -------------------------------------
