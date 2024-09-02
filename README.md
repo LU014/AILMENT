@@ -36,7 +36,9 @@ from sklearn.ensemble import RandomForestClassifier
 
 ```Python
 import pandas as pd
+
 # Assuming your "data" is rows with samples and columns with taxa at the species level
+data = pd.read_csv("data.tsv", index_col=0, sep = '\t') # or CSV file
 
 data = data[data.index.str.startswith('k__Bacteria')] # Select bacteria kingdom
 
