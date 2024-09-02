@@ -65,15 +65,15 @@ data = pd.merge(data, metadata, on='patient_id', how='inner')
 
 For conducting ML models for EMC_CanML, you can follow the code in "<b>Examples</b>", where you will see examples for RF or XGB with binary classification or multi-class classification.
 
-4. Integrative evaluation of predictive performance
+4. Integrative evaluation of predictive performance (to do this, you need to collect the ML outcomes from ML models that you included in the EMC_CanML framework)
 
 See code <b>"Data Analysis/Accuracy_AUROC_itersPlot.ipynb"</b> for accuracy and AUROC
 
 See code <b>"Data Analysis/P_R_F1_itersPlot.ipynb"</b> for precision, recall, and F1-score
 
+5. Integrative feature importance analysis for microbial involvement identification (to do this, you need to collect the ML outcomes from ML models that you included in the EMC_CanML framework)
+
+See code <b>"Data Analysis/FI_itersPlot.ipynb"</b>
 
 -------------------------------------
 
-<b>Prospects:</b> 1. Incoporate explainable AI such as SHAP analysis for diagnosis or other binary classification problems in cancer microbiome; 2. Leverage more ML models or advanced ML models to the framework; 3. More data to be fed into the framework would be appreciating for more accurate microbial involvement identification for CRC.
-
-<b>Tip:</b> Currently, we only have data from published paper or other cohort. Our own data is still generating in the lab.
