@@ -63,7 +63,9 @@ data = pd.merge(data, metadata, on='patient_id', how='inner')
 ```
 3. Machine learning models/framework
 
-You can follow the code in "<b>Example<b/>" section, where you will see examples for RF or XGB with binary classification or multi-class classification.
+For conducting ML models for EMC_CanML, you can follow the code in Examples, where you will see examples for RF or XGB with binary classification or multi-class classification.
+
+4. Integrative evaluation of predictive performance
 
 
 
