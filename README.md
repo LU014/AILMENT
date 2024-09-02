@@ -21,7 +21,7 @@ install.packages("dplyr")
 ```
 Machine learning:
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
 ```
 2. Prepare your dataset (normalization and clean)
 
@@ -61,6 +61,9 @@ data = data.groupby(data.columns, axis=1).sum()
 # Together with metadata ('patient_id' can be other common parts from your data)
 data = pd.merge(data, metadata, on='patient_id', how='inner') 
 ```
+3. Machine learning models/framework
+
+You can follow the code in "<b>Example<b/>" section, where you will see examples for RF or XGB with binary classification or multi-class classification.
 
 
 
