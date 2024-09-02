@@ -13,7 +13,7 @@ install.packages("factoextra")
 install.packages("dplyr")
 install.packages("vegan")
 ```
-Ensembl_id annotation:
+Ensembl_id annotation in R:
 ```bash
 install.packages("BiocManager")  # BiocManager is required to install Bioconductor packages
 BiocManager::install("biomaRt")
