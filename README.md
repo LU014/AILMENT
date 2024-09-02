@@ -32,7 +32,7 @@ from sklearn.model_selection import GridSearchCV, StratifiedKFold
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 ```
-2. Prepare your dataset
+2. Prepare your dataset (normalization and clean)
 
 ```Python
 # Assuming your "data" is rows with samples and columns with taxa at the species level
