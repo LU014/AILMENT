@@ -1,6 +1,6 @@
 # README
 
-## EMC_CanML: A Novel Machine Learning Framework for Prediction and Analysis of Microbial Involvement in Colorectal Cancer
+## AILMENT: A Novel Machine Learning Framework for Prediction and Analysis of Microbial Involvement in Colorectal Cancer
 
 ### Workflow for you to conduct EMC_CanML step by step:
 
@@ -13,7 +13,7 @@ install.packages("factoextra")
 install.packages("dplyr")
 install.packages("vegan")
 ```
-Ensembl_id annotation in R:
+(For gene expression profile) Ensembl_id annotation in R:
 ```bash
 install.packages("BiocManager")  # BiocManager is required to install Bioconductor packages
 BiocManager::install("biomaRt")
